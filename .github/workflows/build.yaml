@@ -12,8 +12,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    - uses: ArtificialAmateur/cpp-linter-action@0.01
 
     - name: Configure CMake
       run: cmake -B ${{github.workspace}}/build
